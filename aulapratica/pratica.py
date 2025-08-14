@@ -1,7 +1,5 @@
 print("olá filipe, seja bem vindo !")
-status = input("você esta bem?")
-
-status = input("você esta bem? (s/n): ")
+status = str(input("você esta bem? (s/n): "))
 if status == "s":
   print("que bon, fico feliz!")
 elif status == "n":
