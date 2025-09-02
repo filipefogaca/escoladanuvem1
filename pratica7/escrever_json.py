@@ -14,8 +14,8 @@ def escrever_json(nome_arquivo, dados):
 if __name__ == "__main__":
     dados_p = {
         "nome": "Filipe",
-        "Idade": "20",
-        "Cidade": "São Paulo"
+        "idade": "20",
+        "cidade": "São Paulo"
     }
     nome_do_arquivo = input("Digite o nome do arquivo Json a ser salvo: ").strip()
 
